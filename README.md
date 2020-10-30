@@ -7,7 +7,7 @@ The present raw data is published daily around midday by the [city of Dresden](h
 
 There is no history of the data from the city side, as the same data set, which is offered for download, is always overwritten by the daily updated state of data.
 
-This repository contains up-to-the-minute data, which I have been recording since 18.10.2020 in the course of developing my own [Corona dashboard](https://github.com/jdieg0/coronavirus-dresden). On the project site you will also find further information on how you can keep a track of the data changes yourself.
+This repository contains up-to-the-minute data, which I have been recording since 18.10.2020 in the course of developing my own [SARS-CoV-2 dashboard](https://github.com/jdieg0/coronavirus-dresden). On the project site you will also find further information on how you can keep track of the data changes yourself.
 
 ## Data source and license
 
