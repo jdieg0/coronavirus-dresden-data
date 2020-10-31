@@ -1,7 +1,7 @@
 # Coronavirus Dresden Data
 
-[![License](https://img.shields.io/github/last-commit/jdieg0/coronavirus-dresden-data)](https://github.com/jdieg0/coronavirus-dresden-data/commits/main)
-![License](https://img.shields.io/github/repo-size/jdieg0/coronavirus-dresden-data)
+[![License](https://img.shields.io/badge/license-DL--DE--BY--2.0-green)](https://github.com/jdieg0/coronavirus-dresden-data/blob/main/LICENCE)
+[![Last commit](https://img.shields.io/github/last-commit/jdieg0/coronavirus-dresden-data)](https://github.com/jdieg0/coronavirus-dresden-data/commits/main)
 
 The present raw data is published daily around midday by the [city of Dresden](https://www.dresden.de/de/leben/gesundheit/hygiene/infektionsschutz/corona.php). This is the data set that the city uses for its official [dashboard](https://stva-dd.maps.arcgis.com/apps/opsdashboard/index.html#/3eef863531024aa4ad0c4ac94adc58e0).
 
