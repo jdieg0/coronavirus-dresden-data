@@ -1,5 +1,6 @@
 # Coronavirus Dresden Data
 
+[![Go to data collection code](https://img.shields.io/badge/corona-data-yellow)](https://github.com/jdieg0/coronavirus-dresden)
 [![License](https://img.shields.io/badge/license-DL--DE--BY--2.0-green)](https://github.com/jdieg0/coronavirus-dresden-data/blob/main/LICENCE)
 [![Last commit](https://img.shields.io/github/last-commit/jdieg0/coronavirus-dresden-data)](https://github.com/jdieg0/coronavirus-dresden-data/commits/main)
 
