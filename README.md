@@ -22,6 +22,11 @@ The Data is available under an open licence compatible with CC-BY: *Landeshaupts
 
 ## Files
 
+The data is archived in two different JSON styles in this repo:
+
+- Under [```/json```](json) are the JSON files without line breaks and indentations, which can potentially be processed faster.
+- Under [```/pjson```](pjson) there is "pretty printed" JSON, which is **human-readable and more convenient for browsing** and debugging.
+
 The version of the JSON files is stored in the file name as an [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (UTC) date, that is, in the form:
 
     YYYY-MM-DDTHH:MM:SSZ.json
