@@ -35,7 +35,7 @@ The date is the time of detection and download of a new data set. Every minute a
 
 ## Processing the data
 
-### „Corona Dresden“ Python script + InfluxDB
+### „Coronavirus Dresden“ Python script + InfluxDB
 
 The same [script](https://github.com/jdieg0/coronavirus-dresden) I use to collect the data can also be used to import the JSON files into [InfluxDB](https://www.influxdata.com/products/influxdb-overview/). From there it can be processed and visualised using the SQL-like query language [InfluxQL](https://docs.influxdata.com/influxdb/v1.8/query_language/spec/) and, for instance, [Grafana](https://grafana.com/docs/grafana/latest/datasources/influxdb/).
 
