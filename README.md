@@ -29,7 +29,7 @@ The data is archived in two different JSON styles in this repo:
 
 The version of the JSON files is stored in the file name as an [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (UTC) date, that is, in the form:
 
-    YYYY-MM-DDTHH:MM:SSZ.json
+    YYYY-MM-DDThhmmssZ.json
 
 The date is the time of detection and download of a new data set. Every minute a [cronjob](https://github.com/jdieg0/coronavirus-dresden#cron) searches for modifications, i.e. the data set was usually updated by the city within the minute before.
 
@@ -45,11 +45,11 @@ Installation instructions can be found on the [*Coronavirus Dresden* project sit
 
 When everything is [set up](https://github.com/jdieg0/coronavirus-dresden#install), the JSON file can be read and written to InfluxDB with the following command:
 
-    python collect.py --file YYYY-MM-DDTHH:MM:SSZ.json
+    python collect.py --file YYYY-MM-DDThhmmssZ.json
 
 If you want to import a file without a valid ISO-8601 timestamp or if you want to use a different date, you can pass it along with:
 
-    python collect.py --file file.json --date YYYY-MM-DDTHH:MM:SSZ
+    python collect.py --file file.json --date YYYY-MM-DDThhmmssZ
 
 To use the current date and ignore the file name, type:
 
@@ -58,11 +58,11 @@ To use the current date and ignore the file name, type:
 
 Note that the script uses a cache file to track changes. If you have previously imported the same file, you must force the import with
 
-    python collect.py --file YYYY-MM-DDTHH:MM:SSZ.json --force-collect
+    python collect.py --file YYYY-MM-DDThhmmssZ.json --force-collect
 
 or prevent the saving of a cache file during the initial import:
 
-    python collect.py --file YYYY-MM-DDTHH:MM:SSZ.json --no-cache
+    python collect.py --file YYYY-MM-DDThhmmssZ.json --no-cache
 
 To display all data collection options, type:
 
