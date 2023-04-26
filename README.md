@@ -4,11 +4,14 @@
 [![License](https://img.shields.io/badge/license-DL--DE--BY--2.0-green)](https://github.com/jdieg0/coronavirus-dresden-data/blob/main/LICENCE)
 [![Last commit](https://img.shields.io/github/last-commit/jdieg0/coronavirus-dresden-data)](https://github.com/jdieg0/coronavirus-dresden-data/commits/main)
 
-The present raw data is published daily around midday by the [city of Dresden](https://www.dresden.de/de/leben/gesundheit/hygiene/infektionsschutz/corona.php). This is the data set that the city uses for its official [dashboard](https://stva-dd.maps.arcgis.com/apps/opsdashboard/index.html#/3eef863531024aa4ad0c4ac94adc58e0).
+The present raw data is published daily around midday by the [city of Dresden](https://www.dresden.de/de/leben/gesundheit/hygiene/infektionsschutz/corona.php). This is the data set that the city uses for its official [dashboard](https://experience.arcgis.com/experience/d2386f3214c1451c81b242be69bb3d50).
 
 There is no history of the data from the city side, as the same data set, which is offered for download, is always overwritten by the daily updated state of data.
 
 This repository contains up-to-the-minute data, which I have been recording since 18.10.2020 in the course of developing my own [SARS-CoV-2 dashboard](https://github.com/jdieg0/coronavirus-dresden). On the project site you will also find further information on how you can keep track of the data changes yourself.
+
+> **Note**
+> After more than two years, the active maintenance of this data collection project ended on 04/26/2023. **Thanks to all who have accompanied and actively supported this project throughout that time!** :heart:
 
 ## Data source and license
 
